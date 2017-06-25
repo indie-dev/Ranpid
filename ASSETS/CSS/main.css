@@ -1,0 +1,141 @@
+/* Ranpid is a theme for Reddit */
+
+body
+{
+      background-color: #424242;
+}
+.redditname a
+{
+	height: 240;
+	width: 200px;
+	float: left;
+        text-indent:-9000px;
+        visibility: visible;
+}
+
+.pagename 
+{
+        background: url(%%Softy%%);
+        background-repeat:no-repeat;
+        visibility: visible;
+}
+#header-bottom-left
+{
+	
+        background-size: 500px 250px;
+        background-position: center;
+        background-repeat:no-repeat;
+	height:140px;
+}
+#header-bottom-left .tabmenu
+{
+	position: absolute;
+	left:40px;
+	bottom:0px;
+}
+
+#header-img.default-header
+{
+	position: absolute;
+	right:50px;
+	top:109px;
+	width: 35px;
+	height: 40px;
+}
+
+/* Hide the little bar on top */
+#sr-header-area
+{
+        color: white;
+	background-color: #7c98ab;
+}
+#header
+{
+        background: url(%%Softy%%);
+        background-repeat:no-repeat;
+        background-size: 300px 200px;
+        background-position: left;
+}
+#header-bottom-right
+{
+	position: absolute;
+        height:10px;
+}
+
+#header-bottom-right {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background-color: transparent;
+    padding: 4px;
+    line-height: 12px;
+    border-top-left-radius: 7px;
+}
+/* Change URL Top bar text color */
+.sr-bar a
+{
+	color: white;
+}
+
+/*Change drop down colors*/
+.dropdown.srdrop.selected
+{
+	color: white;
+}
+
+.dropdown
+{
+	color: white;
+}
+
+#sr-header-area .dropdown.srdrop {
+    height: 19px;
+    float: left;
+    padding-left: 5px;
+    background-color: whitesmoke;
+    color: wheat;
+}
+
+#sr-more-link {
+    color: black;
+    background-color: whitesmoke;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0 5px 0 15px;
+    font-weight: bold;
+    margin: 0;
+    font-style: normal;
+}
+
+#sr-header-area .drop-choices.srdrop {
+    margin-top: 0;
+    margin-left: 0px;
+}
+.commentarea
+{
+     background-color: #282828;
+}
+.tabmenu{margin:12px 0 0;display:block;height:42px;line-height:42px;border:none}
+.tabmenu li a{background:none;color:#292f34;font-size:14px}
+.tabmenu li.selected a {
+    color: white;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    border-bottom: 1px solid white;
+    z-index: 100;
+}
+.thing .title:visited {
+    color: #348B5F;
+}
+
+.link .title {
+    font-size: medium;
+    font-weight: normal;
+    margin-bottom: 1px;
+}
+
+.thing .title {
+    color: #FFFFFF;
+}
+
